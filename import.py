@@ -13,7 +13,11 @@ print sqrt(25)
 """
 imprts the math library.  "think of it as getting the math box but not opening it.
 So you need to put the library before it (in this case math) to say hey
-go into the box and get the sqrt function.  
+go into the box and get the sqrt function.
+NOTE:  This is typical because if you have an identically named method (sqrt) that
+function will get called if you use from math import * and can cause confusion so 
+to be clear it is good to use (module name).(method name) to be clear and avoid 
+confusion.
 """
 import math
 print math.sqrt(36)
