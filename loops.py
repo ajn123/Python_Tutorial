@@ -23,7 +23,5 @@ def main():
 	for d in days:
 		print d
 
-
-
 if __name__ == '__main__':
 	main()

@@ -1,14 +1,15 @@
 
 
 
-class myClass():
-	def method1(self):
-		print "this is a class method"
-		
+class Complex:
+	#Is the equal of a constructor in python
+	def __init__(self, realpart, imagpart):
+		self.r = realpart
+        self.i = imagpart
 
-def main():
-	c = myClass()
-	c.method1()
+
+
+
 
 
 if __name__ == '__main__':
