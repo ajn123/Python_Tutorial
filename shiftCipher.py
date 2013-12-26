@@ -60,7 +60,6 @@ name = raw_input("type in your cipher (no spaces)\n")
 key = raw_input("what is the key? \n")
 DorE= raw_input("are you Encrypting or Decrypting or Best Guess Decryption (E or D or B)?\n")
 
-
 if DorE == "E":
 	encrypt(name,int(key))
 elif DorE == "D":
