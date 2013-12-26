@@ -1,6 +1,6 @@
 
 from string import ascii_lowercase
-
+#aaray of lowercase letters
 alph = list(ascii_lowercase)
 
 
