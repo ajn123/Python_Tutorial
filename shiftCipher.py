@@ -1,14 +1,4 @@
 
-"""
-DorE= raw_input("are you Encrypting or Decrypting (E or D)?\n")
-
-
-if DorE == "E":
-	encrypt(name,int(key))
-elif DorE == "D":
-	decrypt(name,int(key))
-"""
-
 from string import ascii_lowercase
 
 alph = list(ascii_lowercase)
@@ -55,18 +45,25 @@ english word substrings and prints them out
 """
 def bestGuessDecrypt(name):
 	text = []
+	print "Best guesses for decrption are as follows:"
 	for x in range(0,26):
 		for char in name:
-			text.append( alph[((ord(char)-19)-x) %26])
+			text.append(alph[((ord(char)-19)-x) %26])
 		if bestGuess(''.join(text)):
-			print ''.join(text)
+			print ''.join(text) +"\tkey is: "+str(x)
 		text =[]
 
 
 
-"""
+#Asks the user for input
 name = raw_input("type in your cipher (no spaces)\n")
 key = raw_input("what is the key? \n")
-"""
+DorE= raw_input("are you Encrypting or Decrypting or Best Guess Decryption (E or D or B)?\n")
 
-bestGuessDecrypt("hphtww")
+
+if DorE == "E":
+	encrypt(name,int(key))
+elif DorE == "D":
+	decrypt(name,int(key))
+else:
+	bestGuessDecrypt(name)
