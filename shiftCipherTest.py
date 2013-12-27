@@ -16,7 +16,8 @@ class shiftTest(unittest.TestCase):
 		self.assertEqual(decrypt("cde",2),"abc")
 
 	def testBestGuess(self):
-		self.assertEqual(bestGuessDecrypt("abc"),[['a', 'b', 'c'], ['z', 'a', 'b'], ['o', 'p', 'q'], ['n', 'o', 'p'], ['m', 'n', 'o'], ['h', 'i', 'j'], ['g', 'h', 'i'], ['e', 'f', 'g'], ['d', 'e', 'f'], ['c', 'd', 'e']])
+		self.assertEqual(bestGuessDecrypt("abc"),[['a', 'b', 'c'], ['z', 'a', 'b'], ['o', 'p', 'q'], ['n', 'o', 'p'], ['m', 'n', 'o'], 
+			['h', 'i', 'j'], ['g', 'h', 'i'], ['e', 'f', 'g'], ['d', 'e', 'f'], ['c', 'd', 'e']])
 
 
 if __name__ == '__main__':
