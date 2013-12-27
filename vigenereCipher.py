@@ -1,5 +1,13 @@
 
+"""
+
+
+"""
 def findTrigraphs(text):
+
+	if not isinstance(text, str):
+		print "needs to be a string not "+ str(type(text))
+		return
 	count  = 0
 	index = 1
 	list = []
@@ -24,20 +32,7 @@ from fractions import gcd
 #print gcd(20,8)
 
 
-def findLength(list):
-	count = 0
-	for item in range(count,len(list)-1,1):
 
-
-
-def toStr(n,base):
-   convertString = "0123456789ABCDEF"
-   if n < base:
-      return convertString[n]
-   else:
-      return toStr(n//base,base) + convertString[n%base]
-
-print(toStr(1453,16))
 
 
 findTrigraphs("asdpooqwertypoolkjhgpoo")

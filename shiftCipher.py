@@ -57,12 +57,19 @@ def bestGuessDecrypt(name):
 
 #Asks the user for input
 name = raw_input("type in your cipher (no spaces)\n")
-key = raw_input("what is the key? \n")
-DorE= raw_input("are you Encrypting or Decrypting or Best Guess Decryption (E or D or B)?\n")
+DorE = ""
+while DorE != "E" and DorE != "D" and DorE != "B":
+	DorE= raw_input("are you Encrypting or Decrypting or Best Guess Decryption (E or D or B)?\n")
+
+if DorE == "E" or DorE == "D":
+	try:
+		key = int(raw_input("what is the key? \n"))
+	except ValueError:
+		print "Oops!  That was no valid number.  Try again..."
 
 if DorE == "E":
-	encrypt(name,int(key))
+	encrypt(name,key)
 elif DorE == "D":
-	decrypt(name,int(key))
+	decrypt(name,key)
 else:
 	bestGuessDecrypt(name)

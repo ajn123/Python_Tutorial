@@ -1,15 +1,13 @@
 
 
 
-class Complex:
-	#Is the equal of a constructor in python
-	def __init__(self, realpart, imagpart):
-		self.r = realpart
-        self.i = imagpart
+class Car(object):
+	"""docstring for Car"""
+	def __init__(self, arg):
+		super(Car, self).__init__()
+		self.arg = arg
+		
 
 
-
-
-
-
-	
+my_list = [i**2 for i in range(1,11)]
+print my_list
