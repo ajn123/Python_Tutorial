@@ -1,12 +1,13 @@
 from shiftCipher import *
 import unittest
 
-
+"""
+Tests shift Cipher tests
+"""
 class shiftTest(unittest.TestCase):
 	"""docstring for shiftTest"""
 	def setUp(self):
 		pass
-
 
 	def testEncrypt(self):
 		self.assertEqual(encrypt("abc",2),"cde")
