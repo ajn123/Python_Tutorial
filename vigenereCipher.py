@@ -1,10 +1,13 @@
 
+import unittest
+
+
 """
-
-
+Fings similar substring sequences in a string to indicate a vigenere cipher
+PRE:string
+POST:position of similar substrings are printed out
 """
 def findTrigraphs(text):
-
 	if not isinstance(text, str):
 		print "needs to be a string not "+ str(type(text))
 		return
@@ -25,14 +28,25 @@ def findTrigraphs(text):
 		
 		count = count + 1
 		index = count + 1
-	print list
-
-
-from fractions import gcd
-#print gcd(20,8)
+	list.sort()
+	return list
 
 
 
 
 
-findTrigraphs("asdpooqwertypoolkjhgpoo")
+"""
+Tests the trigraph function by comparing the returned list.
+Uses the unit testing library.
+"""
+class TestTrigraphs(unittest.TestCase):
+
+    def setUp(self):
+       pass
+
+    def test_trigraph(self):
+         self.assertEqual(findTrigraphs("asdpooqwertypoolkjhgpoo"),[3,12,12,20])
+
+
+if __name__ == '__main__':
+    unittest.main()
