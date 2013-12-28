@@ -1,7 +1,6 @@
 
 import unittest
 
-
 """
 Fings similar substring sequences in a string to indicate a vigenere cipher
 PRE:string
@@ -36,17 +35,63 @@ def findTrigraphs(text):
 
 
 """
+Calculates the index of coincidence of a piece of text
+"""
+def indexOfCoincidence(text):
+
+	text = text.replace(" ", "")
+	text = text.lower()
+	list = [0] * 26
+	for char in text:
+		list[(ord(char)-19) %26] = list[(ord(char)-19) %26] +1
+
+	sum = 0.0
+	for item in list:
+		sum = sum + (item *(item -1))
+
+	sum = sum / (len(text) * (len(text)-1))
+
+	if sum <= 0.0412:
+		print "The IoC value indicates that the cipher is likely monoalphabetic"
+
+	return sum
+
+	
+
+
+
+
+
+
+
+"""
 Tests the trigraph function by comparing the returned list.
 Uses the unit testing library.
 """
 class TestTrigraphs(unittest.TestCase):
 
+
     def setUp(self):
        pass
+
+
+    def testIoC(self):
+		self.assertAlmostEqual(indexOfCoincidence("Defend the east wall of the castle"),0.082010582010582)
+
+
 
     def test_trigraph(self):
          self.assertEqual(findTrigraphs("asdpooqwertypoolkjhgpoo"),[3,12,12,20])
 
 
+
+
+
+
+
+
+
+
+
 if __name__ == '__main__':
-    unittest.main()
+	unittest.main()
