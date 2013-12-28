@@ -14,9 +14,12 @@ This repository has all my notes on python and corresponding tests
 * Exception Handling
 * Classes
 
-**and anything else as I learn as I go on**
+**and anything else I learn as I go on**
 
 
+
+For my benefit I am trying to make cryptographic ciphers to culminate in
+my learning, ignore that folder if you are not interested.
 
 | Subjects      | Methods       | Tested  |
 | ------------- |:-------------:| -----:|
