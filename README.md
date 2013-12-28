@@ -14,7 +14,7 @@ This repository has all my notes on python and corresponding tests
 * Exception Handling
 * Classes
 
-**and anything else as I go on**
+**and anything else as I learn as I go on**
 
 
 
