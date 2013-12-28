@@ -28,5 +28,6 @@ my learning, ignore that folder if you are not interested.
 | Lists| Simple example done|No|
 
 
+####Questions, Concerns, flat out mistakes?  feel free to contact me.
 
 > [Contact me](mailto:applejuiceteaching@gmail.com)
