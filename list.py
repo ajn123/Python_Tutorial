@@ -72,6 +72,11 @@ class listTest(unittest.TestCase):
 		#increments by two elements at a time starting at index 0 going to the end
 		thirdList = list[::2]
 		self.assertEqual(thirdList,[1,3,5])
+
+		#You can start at the back if you use negative numbers, -2 = two indeces from the back
+		#and the second ":"  number means up to but not including that point
+		fourthList = list[-2:-1]
+		self.assertEqual(fourthList,[4])
 		
 
 
