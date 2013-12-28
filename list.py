@@ -20,12 +20,9 @@ When your data requires the ability to be changed or extended. Remember, lists a
 
 
 class listTest(unittest.TestCase):
-
-
 	def testInit(self):
 		list = [1,2,3]
 		self.assertEqual(list,[1,2,3])
-
 
 	#Lists can be properly sorted using the sort() method
 	def testSort(self):
@@ -45,7 +42,37 @@ class listTest(unittest.TestCase):
 		list[0] = 100
 		self.assertEqual(list[0],100)
 
+	def testIndex(self):
+		list = [1,2,3]
+		self.assertEqual(1, list.index(2))
 
+	def testSize(self):
+		list = [1,2,3]
+		self.assertEqual(3, len(list) )
+
+	#Adds an element to the back of a list
+	def testAppend(self):
+		list = [1,2,3]
+		list.append(4)
+		self.assertEqual(list,[1,2,3,4])
+
+	def testInsert(self):
+		list = [1,2,3]
+		list.insert(0,0)
+		self.assertEqual(list,[0,1,2,3])
+
+	#Tests the splicing mechanism of lists
+	def testSplicing(self):
+		list = [1,2,3,4,5]
+		nList = list[1:]
+		self.assertEqual(nList,[2,3,4,5])
+		secList = list[2:4]
+		self.assertEqual(secList,[3,4])
+
+		#increments by two elements at a time starting at index 0 going to the end
+		thirdList = list[::2]
+		self.assertEqual(thirdList,[1,3,5])
+		
 
 
 
