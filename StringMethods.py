@@ -11,6 +11,7 @@ multiline comment"""
 
 #This class allows for junit testing
 #Just use assert Equals
+#NOTE: Test methods must start with "test" to be run by junit
 class MyTest(unittest.TestCase):
 
 	#Tests string length method
