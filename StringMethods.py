@@ -1,4 +1,4 @@
-#This imports unit testing into python, similar to java JUnit testing
+#This imports unit testing into python, similar to Java JUnit testing
 import unittest
 
 
@@ -23,12 +23,23 @@ class MyTest(unittest.TestCase):
     	string = "practice String"
     	self.assertEqual("PRACTICE STRING",string.upper());
 
-
     def testLower(self):
     	string = "Practice String"
     	self.assertEqual("practice string",string.lower());
 
+        #the replace() method replaces all occurrences of the first parameter with the second
+    def testReplace(self):
+        string = "examplex"
+        self.assertEqual('eXampleX',string.replace('x','X'))
+
+        #Strips whitespace if no parameter or all passes of what is given as a parameter
+    def testStrip(self):
+        string = "    Example   "
+        self.assertEqual('Example',string.strip())
+        self.assertEqual( 'www.example.com'.strip('cmowz.'),'example')
 
 
-unittest.main()
+
+if __name__ == '__main__':
+    unittest.main()
 
