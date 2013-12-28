@@ -1,4 +1,4 @@
-Python_Introduction
+Python Introduction
 ===================
 
 This repository has all my notes on python and corresponding tests
@@ -17,9 +17,9 @@ This repository has all my notes on python and corresponding tests
 
 | Subjects      | Methods       | Tested  |
 | ------------- |:-------------:| -----:|
-| Shift Cipher     | Done | Done |
-| Vigenere Cipher | Partially Done      |   Partially Tested |
-| Lists| Simple example done     |    No|
+| Shift Cipher| Done | Done |
+| Vigenere Cipher|Partially Done|Partially Tested |
+| Lists| Simple example done|No|
 
 
 
