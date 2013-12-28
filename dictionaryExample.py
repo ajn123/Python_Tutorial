@@ -23,12 +23,12 @@ def main():
 	#Deletes the key value pair with 1 as a key
 	del(vowels[1])
 
-	#Typeing does not have to be consistant across the dictionary
+	#Typing does not have to be consistent across the dictionary
 	vowels["aj"] = "bobo"
+
 
 	print vowels.keys()
 	print vowels.values()
-
 
 
 
