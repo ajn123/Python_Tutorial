@@ -77,6 +77,16 @@ class listTest(unittest.TestCase):
 		#and the second ":"  number means up to but not including that point
 		fourthList = list[-2:-1]
 		self.assertEqual(fourthList,[4])
+
+
+	def testInitialize(self):
+	#Creates a list of 26 1's
+		list = [1]  * 10
+		self.assertEqual(list,[1,1,1,1,1,1,1,1,1,1])
+
+		#initializes a list of 6 elements each having a square of their indices.
+		list = [x**2 for x in range(6)]
+		self.assertEqual(list,[0,1,4,9,16,25])
 		
 
 

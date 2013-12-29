@@ -24,8 +24,9 @@ my learning, ignore that folder if you are not interested.
 | Subjects      | Methods       | Tested  |
 | ------------- |:-------------:| -----:|
 | Shift Cipher| Done | Done |
-| Vigenere Cipher|Partially Done|Partially Tested |
-| Lists| Simple example done|No|
+| Lists| Done|Done|
+| Vigenere Cipher|Index Of Coincidecene and trigraphs added|Done|
+
 
 
 ####Questions, Concerns, flat out mistakes?  feel free to contact me.

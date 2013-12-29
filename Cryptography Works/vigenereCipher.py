@@ -69,11 +69,8 @@ Tests the trigraph function by comparing the returned list.
 Uses the unit testing library.
 """
 class TestTrigraphs(unittest.TestCase):
-
-
     def setUp(self):
        pass
-
 
     def testIoC(self):
 		self.assertAlmostEqual(indexOfCoincidence("Defend the east wall of the castle"),0.082010582010582)
