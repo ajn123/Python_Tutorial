@@ -11,7 +11,6 @@ x = np.linspace(0,2*np.pi,100)
 y = np.sin(x)
 
 # Create the plot
-plt.plot(1,x)
 
 # Save the figure in a separate file
 plt.savefig('sine_function_plain.png')
