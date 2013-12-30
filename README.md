@@ -1,10 +1,12 @@
-Python Introduction
+Python 2 Introduction 
 ===================
+
+#All of these notes were done using pythion version 2.7.5
 
 This repository has all my notes on python and corresponding tests
 
 
-### I Hope to cover all these topics as I attempt to learn python
+### I Hope to cover all these topics as I attempt to learn python 
 * Dictionary
 * Lists
 * Unit Testing
