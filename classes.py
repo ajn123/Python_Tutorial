@@ -12,12 +12,11 @@ class Car():
 	the init method after the object is created
 	"""
 	def __init__(self,number):
-
-	"""
-	I can create instance variables for my class by simply defining them, the
-	common thing to do is make the instance variables begin with an "_" to
-	indicate instance variables, this is common practice in python
-	"""
+		"""
+		I can create instance variables for my class by simply defining them, the
+		common thing to do is make the instance variables begin with an "_" to
+		indicate instance variables, this is common practice in python
+		"""
 		self._number = number
 
 
@@ -33,3 +32,7 @@ class Car():
 
 
 
+if __name__ == '__main__':
+	#Instanciates a car object and assigns it to variable car
+	car = Car(1222)
+	print car.number()

@@ -30,3 +30,13 @@ for me to use.  Notice I don't need to have math before it as well
 """
 from math import sqrt
 print sqrt(49)
+
+
+
+"""
+Sets the math library as an alias for the user to use.  "mt" can be used as 
+an alias and can be anything.
+"""
+import math as mt
+
+print mt.sqrt(36)
