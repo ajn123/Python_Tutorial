@@ -1,4 +1,9 @@
 import numpy as np
+from string import ascii_lowercase
+#aaray of lowercase letters
+alph = list(ascii_lowercase)
+
+
 
 
 mx = np.matrix([[1,2,3],[4,5,6],[7,8,9],[10,11,12]])
@@ -85,9 +90,25 @@ def encrypt():
 
 	print finalMultiplicationMatrix
 
+	characterMatrix = []
+	for x in finalMultiplicationMatrix:
+		characterMatrix.append( np.matrix(x) * np.matrix(finalMatrix))
 
-	#print np.matrix(numArray) * np.matrix(finalMatrix)
 
+	cipherText = []
+	for item in characterMatrix:
+		A = np.array(item).tolist()
+		for i in A:
+			for f in i:
+				cipherText.append(alph[f % 26])
+
+	print "Cipher text is: "+''.join(cipherText)
+
+
+	# for x in characterMatrix:
+	# 	for item in x:
+	# 		string = str(unichr(item))
+	# 		print string
 
 
 if __name__ == '__main__':

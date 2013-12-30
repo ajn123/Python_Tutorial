@@ -26,6 +26,7 @@ my learning, ignore that folder if you are not interested.
 | Shift Cipher| Done | Done |
 | Lists| Done|Done|
 | Vigenere Cipher|Index Of Coincidecene and trigraphs added|Done|
+| Hill Cipher|Encryption Done|No|
 
 
 
