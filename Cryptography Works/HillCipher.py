@@ -39,6 +39,8 @@ def getText():
 	str = raw_input()
 	str= str.lower()
 	str = str.replace(" ","")
+
+
 	return str
 
 
@@ -68,6 +70,9 @@ def encrypt():
 	print finalMatrix
 
 	str = getText()
+	if len(str) % length != 0:
+		str = str + ( length -  (len(str) % length ))*'a'
+
 
 	lengthOfMatrix = length
 	length = 0
@@ -105,18 +110,9 @@ def encrypt():
 	print "Cipher text is: "+''.join(cipherText)
 
 
-	# for x in characterMatrix:
-	# 	for item in x:
-	# 		string = str(unichr(item))
-	# 		print string
-
 
 if __name__ == '__main__':
-	# mx = np.matrix([[1,2,3],[4,5,6],[7,8,9],[10,11,12]])
-	# my = np.matrix([[1,2],[1,2],[3,4]])   
 
-
-	# print mx * my
 	encrypt()
 
 
