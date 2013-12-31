@@ -1,7 +1,6 @@
-Python 2 Introduction 
+Python 2 & 3 Introduction 
 ===================
 
-##All of these notes were done using python version 2.7.5
 
 This repository has all my notes on python and corresponding tests
 
