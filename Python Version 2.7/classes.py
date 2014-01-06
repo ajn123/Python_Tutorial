@@ -1,4 +1,9 @@
-
+class ClassName(object):
+	"""docstring for ClassName"""
+	def __init__(self, arg):
+		super(ClassName, self).__init__()
+		self.arg = arg
+		
 
 """
 This is how you declare a class with the class key word and then a name
@@ -6,7 +11,7 @@ followed by  "()" everythin within the class is indented just like a look
 of if statement.
 """
 class Car():
-	
+	====
 	"""
 	Not to be thought of a constructor, the constructor calls
 	the init method after the object is created
