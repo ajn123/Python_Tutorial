@@ -14,6 +14,7 @@ This repository has all my notes on python and corresponding tests
 * Loops
 * Exception Handling
 * Classes
+* SQL-lite 3
 
 **and anything else I learn as I go on**
 
