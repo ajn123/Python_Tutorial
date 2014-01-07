@@ -1,31 +1,32 @@
+"""
+imports the numpy library which allows for 
+polynomial functions
+"""
 import numpy as np 
-import math
 
 
-
+#Value to mod the polynomial by
 modValue = 2
-
 
 
 """
 calculates the  modular inverse of a polynomial
 used for the AES algorithm
 """
-def polyInverse():
-	a = [1,0,0,0,0,1]
+def polyInverse(num,field):
+	a = num
 	ansOld = np.poly1d(a)
-	b = [1,0,0,0,1,1,0,1,1]
+
+	b = field
 	ans = np.poly1d(b)
 
 	first = np.poly1d(0)
 	sec = np.poly1d(1)
-	
-	i = 0
+
 	while  ansOld(1000) != 1:
 		array = np.polydiv(ans,ansOld)[0]
 		array = modPolynomial(array)
-		
-		#print array
+
 		inv = compute(sec,first,array)
 		first = sec
 		sec = inv
@@ -33,19 +34,20 @@ def polyInverse():
 		newAns = compute(ansOld,ans,array)
 		ans = ansOld
 		ansOld = newAns
-		i +=1
 	print inv
 
 		
 
 
-#Mods any polynomial to prevent any negatives
+
 def humanAbs(num):
 	if num < 0:
 		return (num % modValue)
 	else:
 		return num
 
+
+#Mods any polynomial to prevent any negatives
 def modPolynomial(poly):
 	i = 0
 	while i <= len(poly) :
@@ -58,21 +60,27 @@ def modPolynomial(poly):
 
 
 
-
+"""
+computes the euclid-wallis algorithm (google it if you dont know) to bring down values which 
+ends up being the inverse.
+"""
 def  compute(a1,a2,a3):
 	multiAns = np.polymul(a1,a3)
 	ans =  np.polysub(a2,multiAns)
 	ans = np.poly1d(ans)
 	modPolynomial(ans)
-	#print ans
 	return ans
 
 
 
-
-
 def main():
-	polyInverse()
+	#represents x^5 + 1
+	num = [1,0,0,0,0,1]
+
+	#represents x^8 + x^4 + x^3 + x + 1
+	field = [1,0,0,0,1,1,0,1,1]
+
+	polyInverse(num,field)
 	
 
 if __name__ == '__main__':
