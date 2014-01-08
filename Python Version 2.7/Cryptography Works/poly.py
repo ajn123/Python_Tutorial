@@ -25,7 +25,7 @@ def polyInverse(num,field,modValue = 2,printOption = False):
 	otherSol = np.poly1d(1)
 	secotherSol = np.poly1d(0)
 
-	while  ansOld(1000) != 1:
+	while  ansOld(0) != 0:
 		array = np.polydiv(ans,ansOld)[0]
 		array = modPolynomial(array)
 
