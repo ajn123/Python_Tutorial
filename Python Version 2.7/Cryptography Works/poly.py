@@ -6,14 +6,13 @@ import numpy as np
 
 
 #Value to mod the polynomial by
-modValue = 2
 
 
 """
 calculates the  modular inverse of a polynomial
 used for the AES algorithm
 """
-def polyInverse(num,field):
+def polyInverse(num,field,modValue = 2,printOption = False):
 	a = num
 	ansOld = np.poly1d(a)
 
@@ -23,6 +22,9 @@ def polyInverse(num,field):
 	first = np.poly1d(0)
 	sec = np.poly1d(1)
 
+	otherSol = np.poly1d(1)
+	secotherSol = np.poly1d(0)
+
 	while  ansOld(1000) != 1:
 		array = np.polydiv(ans,ansOld)[0]
 		array = modPolynomial(array)
@@ -30,17 +32,26 @@ def polyInverse(num,field):
 		inv = compute(sec,first,array)
 		first = sec
 		sec = inv
+
+
+		othInv = compute(secotherSol,otherSol,array)
+		otherSol = secotherSol
+		secotherSol = othInv
 		
 		newAns = compute(ansOld,ans,array)
 		ans = ansOld
 		ansOld = newAns
-	print inv
 
+	list = (inv, othInv)
+
+	if printOption:
+		print 'the inverse of \n ',np.poly1d(field),' is \n',inv
+		print 'and the other inverse is \n',othInv
+	
+	return list
 		
 
-
-
-def humanAbs(num):
+def humanAbs(num,modValue = 2):
 	if num < 0:
 		return (num % modValue)
 	else:
@@ -48,10 +59,10 @@ def humanAbs(num):
 
 
 #Mods any polynomial to prevent any negatives
-def modPolynomial(poly):
+def modPolynomial(poly, modValue = 2):
 	i = 0
 	while i <= len(poly) :
-		poly[i] = humanAbs(poly[i])
+		poly[i] = humanAbs(poly[i],modValue)
 		if poly[i] % modValue == 0:
 			poly[i] = 0
 		i += 1
@@ -74,14 +85,7 @@ def  compute(a1,a2,a3):
 
 
 def main():
-	#represents x^5 + 1
-	num = [1,0,0,0,0,1]
-
-	#represents x^8 + x^4 + x^3 + x + 1
-	field = [1,0,0,0,1,1,0,1,1]
-
-	polyInverse(num,field)
-	
+	pass
 
 if __name__ == '__main__':
 	main()

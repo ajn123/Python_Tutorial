@@ -29,7 +29,7 @@ my learning, ignore that folder if you are not interested.
 | Lists| Done|Done|
 | Vigenere Cipher|Index Of Coincidecene and trigraphs added|Done|
 | Hill Cipher|Encryption Done|No|
-| Polynomial Inverse|Just the inverse, not equation solution| Yes  |
+| Polynomial Inverse|Equation solution|Yes|
 
 
 
