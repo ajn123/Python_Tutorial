@@ -5,9 +5,10 @@ def main():
 	#this is a while loop
 	while(x < 5):
 		print x
-		x = x+1
+		#this is equal to  x = x + 1
+		x += 1
 
-	#this is a for loop, it increments by one automaticaaly
+	#this is a for loop,the most used loop in python.  It increments by one automaticaaly
 	#it goes from 5 to 10 exclusive so  5,6,7,8,9 will be printed NOT 10
 	for x in range(5,10):
 		print x
@@ -23,22 +24,34 @@ def main():
 	for d in days:
 		print d
 
-	str = "formidable"
 
+	#You can also iterate through strings
+	str = "formidable"
+	# the varcable i will print out each character 
+	#in the string
 	for i in str:
 	   print i,
 
 	
-	it = iter(str)
 
-	print it.next()
-	print it.next()
-	print it.next()
 
-	print list(it)
+
+
+def enumerating():
+	#this is how you can get the index of what you are looping through
+	#in case you need it.  You can pass in your block  to this iterable 
+	#function to loop through the list and its index
+
+	list = ("apple","orange","pear")
+	# i is the index ant item is the element
+	for i,item in enumerate(list):
+		print item,i
+
 
 if __name__ == '__main__':
+	enumerating()
 	main()
+
 
 
 
