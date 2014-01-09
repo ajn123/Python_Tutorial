@@ -12,7 +12,7 @@ This repository has all my notes on python and corresponding tests
 
 
 ### I Hope to cover all these topics as I attempt to learn python 
-* Print Output
+[x] Print Output
 * Dictionary
 * Lists
 * Unit Testing
