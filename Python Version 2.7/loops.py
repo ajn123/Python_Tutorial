@@ -43,9 +43,15 @@ def enumerating():
 	#function to loop through the list and its index
 
 	list = ("apple","orange","pear")
-	# i is the index ant item is the element
+	# i is the index and item is the element
 	for i,item in enumerate(list):
 		print item,i
+	"""
+	this prints out:
+	apple 0
+	orange 1
+	pear 2
+	"""
 
 
 if __name__ == '__main__':
