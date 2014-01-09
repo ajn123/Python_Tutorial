@@ -2,10 +2,13 @@ Python 2 & 3 Introduction
 ===================
 
 
+Python releases of both versions can be found here:[http://www.python.org/download/releases/]
+
 This repository has all my notes on python and corresponding tests
 
 
 ### I Hope to cover all these topics as I attempt to learn python 
+* Print Output
 * Dictionary
 * Lists
 * Unit Testing
