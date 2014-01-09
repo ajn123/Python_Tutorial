@@ -1,20 +1,23 @@
-class ClassName(object):
-	"""docstring for ClassName"""
-	def __init__(self, arg):
-		super(ClassName, self).__init__()
-		self.arg = arg
-		
+
 
 """
 This is how you declare a class with the class key word and then a name
-followed by  "()" everythin within the class is indented just like a look
-of if statement.
+followed by  "()" everythin within the class is indented,
 """
 class Car():
-	====
+
+
 	"""
 	Not to be thought of a constructor, the constructor calls
-	the init method after the object is created
+	the init method immediatly after the object is created,
+
+
+	The self keyword refers to this particular object, a class can be thought of as 
+	a definition of an object.  When you create an object, you are creating an instance 
+	of that object or one object.  We are defining a car object but there are many cars 
+	in the world and you can create a car object to represent them.  Self is passed 
+	automatically to each method and you DO NOT need to pass it in and python will  
+	automatically put it in for you.
 	"""
 	def __init__(self,number):
 		"""

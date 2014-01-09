@@ -9,7 +9,6 @@ def power(num, x =1):
 
 
 
-#if else statements
 def main():
 
 	name = raw_input("What is your name?")
