@@ -40,9 +40,11 @@ def main():
 def enumerating():
 	#this is how you can get the index of what you are looping through
 	#in case you need it.  You can pass in your block  to this iterable 
-	#function to loop through the list and its index
+	#function to loop through the list and its index.
 
-	list = ("apple","orange","pear")
+	list = ("apple","orange","pear") #tuple declaration
+
+
 	# i is the index and item is the element
 	for i,item in enumerate(list):
 		print item,i
