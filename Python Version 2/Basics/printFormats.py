@@ -7,17 +7,12 @@ def main():
 	string_1 = "Camelot"
 	string_2 = "place"
 
-
-
-
 	#Old way to print things out in python.
 	print "Let's not go to %s. 'Tis a silly %s." % (string_1, string_2)
 
 
 	#Simple format to print out strings.
 	print 'We are the {} who say "{}!"'.format('knights', 'Ni')
-
-
 
 
 	"""
@@ -46,7 +41,6 @@ def main():
 	table = {'Sjoerd': 4127, 'Jack': 4098, 'Dcab': 7678}
 	for name, phone in table.items():
 		print '{0:10} ==> {1:10d}'.format(name, phone)
-
 
 
 

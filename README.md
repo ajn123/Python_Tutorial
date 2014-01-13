@@ -35,6 +35,7 @@ my learning, ignore that folder if you are not interested.
 
 | Subjects      | Methods       | Tested  |
 | ------------- |:-------------:| -----:|
+|Unit Testing	|Done			|Done	 |
 | Shift Cipher| Done | Done |
 | Lists| Done|Done|
 | Vigenere Cipher|Index Of Coincidecene and trigraphs added|Done|
