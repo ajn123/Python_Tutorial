@@ -34,12 +34,12 @@ For my benefit I am trying to make cryptographic ciphers to culminate in
 my learning, ignore that folder if you are not interested.
 
 | Subjects      | Methods       | Tested  |
-| ------------- |:-------------:| -----:|
+| ------------- |:-------------:| -------:|
 |Unit Testing	|Done			|Done	 |
-| Shift Cipher| Done | Done |
-| Lists| Done|Done|
+| Shift ciphers	|Done			|Done   |
+| Lists| Done	|Done			|
 | Vigenere Cipher|Index Of Coincidecene and trigraphs added|Done|
-| Hill Cipher|Encryption Done|No|
+| Hill ciphers  |Encryption Done|No|
 | Polynomial Inverse|Equation solution|Yes|
 
 
