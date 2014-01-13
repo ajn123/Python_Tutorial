@@ -40,6 +40,22 @@ def main():
 		print LookupError
 
 
+	"""
+	You can catch an exception and then use a finally clause
+	to take care of your program
+
+
+	A finally statement is executed no matter if an exception is
+	thrown.
+	"""
+	try:
+		a = 4 / 2
+	except Exception, e:
+		raise e
+		
+	finally:
+		print "finally clause raised"
+
 
 
 if __name__ == '__main__':

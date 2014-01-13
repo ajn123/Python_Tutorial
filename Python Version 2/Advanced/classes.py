@@ -5,8 +5,6 @@ This is how you declare a class with the class key word and then a name
 followed by  "()" everythin within the class is indented,
 """
 class Car():
-
-
 	"""
 	Not to be thought of a constructor, the constructor calls
 	the init method immediatly after the object is created,
