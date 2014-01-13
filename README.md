@@ -16,7 +16,7 @@ This repository has all my notes on python and corresponding tests
 
 
 
-To get started learing python I suggest you stort in the pyhon version 2 folder > basics and read and play with those concepts.  Then 
+To get started learning python I suggest you start in the python version 2 folder > basics and read and play with those concepts.  Then 
 look at the advanced folder and continue.  When you are done learn the differences between python 2 and 3 by looking 
 at the python 3 folder.
 
