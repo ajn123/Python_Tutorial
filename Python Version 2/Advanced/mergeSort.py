@@ -1,5 +1,5 @@
 """
-This is how you can you splicing to implement merge sort 
+This is how you can you splicing to implement merge sort,
 """
 def mergeSort(alist):
     print("Splitting ",alist)
