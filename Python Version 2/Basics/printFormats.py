@@ -1,11 +1,21 @@
+import math
 
 def main():
-	print 'We are the {} who say "{}!"'.format('knights', 'Ni')
+
 
 	string_1 = "Camelot"
 	string_2 = "place"
 
+
+
+
+	#Old way to print things out in python.
 	print "Let's not go to %s. 'Tis a silly %s." % (string_1, string_2)
+
+
+	#Simple format to print out strings.
+	print 'We are the {} who say "{}!"'.format('knights', 'Ni')
+
 
 
 
@@ -14,7 +24,6 @@ def main():
 	A number in the brackets refers to the position of the object passed into the str.format() method.
 
 	This way you can print the same thing in multiple places if desired.
-
 	"""
 	print '{0} and {1} and again {0}'.format('spam', 'eggs')
 
