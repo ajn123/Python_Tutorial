@@ -14,6 +14,20 @@ This repository has all my notes on python and corresponding tests
 ##To run any of these files, open your terminal and cd into the folder where the file is located and run "python {filename}" without the .py to run it.
 
 
+
+
+To get started learing python I suggest you stort in the pyhon version 2 folder > basics and read and play with those concepts.  Then 
+look at the advanced folder and continue.  When you are done learn the differences between python 2 and 3 by looking 
+at the python 3 folder.
+
+
+
+
+
+
+
+
+
 ### I Hope to cover all these topics as I attempt to learn python 
 * Print Output
 * Dictionary
