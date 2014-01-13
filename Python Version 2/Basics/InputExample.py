@@ -1,16 +1,14 @@
 
 
 
-def power(num, x =1):
-	result = 1
-	for i in range(x):
-		result = result + num
-	return result
-
 
 
 def main():
 
+	"""
+	The function then reads a line from input, converts it to a string 
+	(stripping a trailing newline), and returns that.
+	"""
 	name = raw_input("What is your name?")
 	quest = raw_input("What is your quest?")
 	color = raw_input("What is your favorite color?")
@@ -19,13 +17,15 @@ def main():
 	"and your favorite color is %s." % (name, quest, color)
 
 
-	x,y =100,100
-	if x < y:
-		st = "this is true"
-	else:
-		st = "this is false"
+	"""
+	REMEMBER: raw_input always returns an string.  So if I want to convert it to a 
+	number I have to cast it (turn it into an int) to perform math opertions on it.    
+	"""
+	num = int(raw_input("give me a num: "))
 
-	print st
+	print num + 5
+
+
 
 
 if __name__ == '__main__':
