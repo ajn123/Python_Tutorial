@@ -22,7 +22,7 @@ except ImportError:
 
 def main():
 	while True:
-		#Similar to Try and catch, tries an error and catches it 
+		#Similar to Try and catch, tries an error and catches it.
 		try:
 			x = int(raw_input("Please enter a number: "))
 			break
@@ -31,7 +31,7 @@ def main():
 
 
 
-	#a lookup error in whon an a incorrect lookup happens in a dictionary,
+	#A lookup error in whon an a incorrect lookup happens in a dictionary,
 	dict = {"string": "a word representation"}
 
 	try:
