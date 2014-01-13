@@ -56,13 +56,6 @@ class Testing(unittest.TestCase):
 
 
 
-
-
-
-
-
-
-
 if __name__ == '__main__':
 
 	#simply run your tests by the unit test by running "unittest.main()"
