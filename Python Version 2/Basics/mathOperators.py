@@ -35,11 +35,9 @@ def main():
 	print "sum is now =  {2}".format(a,b,sum)	
 
 
-
 	#increments the value stored in sum by 5
 	sum += 5
 	print "sum is now =  {2}".format(a,b,sum)	
-
 
 
 	sum -= 5
@@ -67,25 +65,6 @@ def main():
 	#divmod gives the result of division and modulus
 	sum = divmod(a,b)
 	print "{0} divided by {1}  = {2}  and its mod is  {3}".format(a,b,sum[0],sum[1])	
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 if __name__ == '__main__':
