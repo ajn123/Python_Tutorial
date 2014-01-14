@@ -3,12 +3,10 @@ An exception is what occurs when you have a run time error in your
 program.
 
 
-
 what you can do is "try" a statement wether it is invalid or not
 if an error does occur withan that statement you can catch that error
 in the except clause and print out a corresponding message 
-(or you can print out the error message),
-
+(or you can print out the error message).
 """
 
 
@@ -52,7 +50,7 @@ def main():
 		a = 4 / 2
 	except Exception, e:
 		raise e
-		
+
 	finally:
 		print "finally clause raised"
 

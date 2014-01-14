@@ -38,6 +38,7 @@ class Car():
 
 
 
+
 if __name__ == '__main__':
 	#Instanciates a car object and assigns it to variable car
 	car = Car(1222)
