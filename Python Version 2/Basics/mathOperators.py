@@ -17,9 +17,9 @@ def main():
 	sum = 11 * 23
 	print "{0} * {1}  =  {2}".format(a,b,sum)	
 
-	a = 40
+	a = 40.2
 	b = 23
-	sum = float(a / b)
+	sum = a / b
 	print "{0} / {1}  =  {2}".format(a,b,sum)	
 
 	"""
@@ -30,15 +30,12 @@ def main():
 	b = 23
 	sum = a % b
 	print "{0} % {1}  =  {2}".format(a,b,sum)	
-
 	
 	print "sum is now =  {2}".format(a,b,sum)	
-
 
 	#increments the value stored in sum by 5
 	sum += 5
 	print "sum is now =  {2}".format(a,b,sum)	
-
 
 	sum -= 5
 	print "sum is now =  {2}".format(a,b,sum)	
