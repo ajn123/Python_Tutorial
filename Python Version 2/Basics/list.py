@@ -29,7 +29,7 @@ class listTest(unittest.TestCase):
 	can just multiply  a list by a value to change the length.  
 
 
-	Doing something  like   a = [0] * 26 creates a list of 26 lists.
+	Doing something  like   a = [0] * 26 creates a list of 26 0's.
 
 	"""
 	def testInitAdvanced(self):
