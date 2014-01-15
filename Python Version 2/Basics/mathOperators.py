@@ -1,4 +1,9 @@
+"""
+Math operators are common in any programming langauge and allow you to perform operations on many
+things in many ways.
 
+
+"""
 
 
 def main():
@@ -22,9 +27,11 @@ def main():
 	sum = a / b
 	print "{0} / {1}  =  {2}".format(a,b,sum)	
 
+
+
 	"""
 	This is the modulus operator that takes a number and 
-	finds the remainer if you were to divide a by b.
+	finds the remainer if you were to divide a by b
 	"""
 	a = 40
 	b = 23
@@ -35,18 +42,22 @@ def main():
 
 	#increments the value stored in sum by 5
 	sum += 5
-	print "sum is now =  {2}".format(a,b,sum)	
+	print "\nsum is now =  {2}".format(a,b,sum)	
 
+	#decrements the value stored in sum by 5
 	sum -= 5
 	print "sum is now =  {2}".format(a,b,sum)	
 
 
+	#multiplies the original value of sum by 5
 	sum *= 5
 	print "sum is now =  {2}".format(a,b,sum)
 
+	#divides the original value of sum by 5
 	sum /= 5
 	print "sum is now =  {2}".format(a,b,sum)	
 
+	#modulos the original value of sum by 5
 	sum %= 5
 	print "sum is now =  {2}".format(a,b,sum)	
 
@@ -63,6 +74,12 @@ def main():
 	sum = divmod(a,b)
 	print "{0} divided by {1}  = {2}  and its mod is  {3}".format(a,b,sum[0],sum[1])	
 
+
+	#You can also add strings and multiply them
+	print "str" + "ing"   #prints "string"
+
+
+	print "hi" * 5 #prints "hihihihihi"
 
 if __name__ == '__main__':
 	main()

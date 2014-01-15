@@ -16,9 +16,6 @@ When your data requires the ability to be changed or extended. Remember, lists a
 """
 
 
-
-
-
 class listTest(unittest.TestCase):
 	def testInit(self):
 		list = [1,2,3]
