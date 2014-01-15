@@ -62,6 +62,9 @@ def main():
 	print "sum is now =  {2}".format(a,b,sum)	
 
 
+	"""
+	The pow function allows you to perform a power function and get the result.
+	"""
 	a = 10
 	b = 2
 	sum = pow(a,b)

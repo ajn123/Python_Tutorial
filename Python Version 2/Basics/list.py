@@ -21,6 +21,21 @@ class listTest(unittest.TestCase):
 		list = [1,2,3]
 		self.assertEqual(list,[1,2,3])
 
+
+
+	"""
+	This special way of creating a list allows you to make a list initialize a 
+	list to a specific length or create a huge array at ease that repeats.  You 
+	can just multiply  a list by a value to change the length.  
+
+
+	Doing something  like   a = [0] * 26 creates a list of 26 lists.
+
+	"""
+	def testInitAdvanced(self):
+		list = [1,2,3] * 4
+		self.assertEqual(list,[1,2,3,1,2,3,1,2,3,1,2,3])
+
 	#Lists can be properly sorted using the sort() method
 	def testSort(self):
 		list = [1,10,3]
