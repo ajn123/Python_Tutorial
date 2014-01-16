@@ -17,23 +17,12 @@ def main():
 
 
 
-	#Prints outs the key and values
-	for k, v in vowels.iteritems():
-		print k, v
-
-	#Add value to dictionary
-	vowels[10] = "z"
-	
-	#Prints just the values from the dictionary
-	for v in vowels.itervalues():
-		print v
-
-	#Deletes the key value pair with 1 as a key
-	del(vowels[1])
-
 	"""
 	Typing does not have to be consistent across the dictionary
 	you can store any type as a key or value.
+
+
+	this adds a pair with value bobo and key Name
 	"""
 	vowels["Name"] = "bobo"
 
@@ -54,6 +43,25 @@ def main():
 	del vowels['Name']; # remove entry with key 'Name'
 	vowels.clear();     # remove all entries in dict
 	del vowels ;        # delete entire dictionary
+
+
+
+
+
+
+	#Prints outs the key and values
+	for k, v in vowels.iteritems():
+		print k, v
+
+	#Add value to dictionary
+	vowels[10] = "z"
+	
+	#Prints just the values from the dictionary
+	for v in vowels.itervalues():
+		print v
+
+	#Deletes the key value pair with 1 as a key
+	del(vowels[1])
 
 
 

@@ -49,14 +49,20 @@ class listTest(unittest.TestCase):
 		self.assertEqual(list[0],1)
 		self.assertEqual(list[1],10)
 
+
+
 	def testModify(self):
 		list = [1,2,3]
 		list[0] = 100
 		self.assertEqual(list[0],100)
 
+
+
 	def testIndex(self):
 		list = [1,2,3]
 		self.assertEqual(1, list.index(2))
+
+
 
 	def testSize(self):
 		list = [1,2,3]
@@ -73,6 +79,11 @@ class listTest(unittest.TestCase):
 		list.insert(0,0)
 		self.assertEqual(list,[0,1,2,3])
 
+
+	"""
+	You can easily split a list up if you want to get a slice of that 
+	to just take that part and assign it to another list.
+	"""
 	#Tests the splicing mechanism of lists
 	def testSplicing(self):
 		list = [1,2,3,4,5]
@@ -89,6 +100,10 @@ class listTest(unittest.TestCase):
 		#and the second ":"  number means up to but not including that point
 		fourthList = list[-2:-1]
 		self.assertEqual(fourthList,[4])
+
+
+		fifthList = list[4:1:-1]
+		self.assertEqual(fifthList,[5,4,3])
 
 
 
