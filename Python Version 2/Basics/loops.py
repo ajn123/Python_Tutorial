@@ -30,7 +30,60 @@ def main():
 	# the varcable i will print out each character 
 	#in the string
 	for i in str:
-	   print i,
+	   print i
+
+
+
+	"""
+	You can break out of loops if a certain condition is met.  The break statement stops the 
+	iteration of a loop and exits out of it.
+
+	"""
+
+	#this loop will stop once n gets to 4.
+	for n in range(2, 10):
+		print "n is" , n
+		if n == 4:
+			break 
+
+
+	"""
+	Another key word is continue, you can use that to still iterate through a loop but 
+	when continue is hit by the program the next iteration automatically starts.
+
+
+	in this case "another statement i is 6" will be skipped over because it hits the continue statement
+	"""
+	for i in range(10):
+		print "i is ", i  
+		if i == 6:
+			continue
+		print "another statement i is ", i
+
+
+	"""
+	You can not just have else statements at the end of if statements but also at the end of loops.
+
+	Loop statements may have an else clause; it is executed when the loop terminates through exhaustion 
+	of the list (with for) or when the condition becomes false (with while), but not when the loop is terminated by a break statement.
+	"""
+	for i in range(12,20):
+		print i 
+	else:
+		print "done with the loop"
+
+
+	for i in range(12,20):
+		break
+	else:
+		print "loop will not execute"
+
+
+
+
+
+
+
 
 	
 
