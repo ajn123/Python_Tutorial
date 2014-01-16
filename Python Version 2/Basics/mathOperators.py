@@ -1,5 +1,5 @@
 """
-Math operators are common in any programming langauge and allow you to perform operations on many
+Math operators are common in any programming language and allow you to perform operations on many
 things in many ways.
 
 
@@ -31,7 +31,7 @@ def main():
 
 	"""
 	This is the modulus operator that takes a number and 
-	finds the remainer if you were to divide a by b
+	finds the remainder if you were to divide a by b
 	"""
 	a = 40
 	b = 23
