@@ -32,7 +32,7 @@ def returnAdd(p1,p2):
 
 """
 You can make default parameters by making them after the 
-requred ones
+required ones
 
 In this function I have two parameters,the first two are required 
 ,the third is NOT but you can override it by passing in a third parameter

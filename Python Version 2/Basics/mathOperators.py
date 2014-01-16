@@ -57,9 +57,17 @@ def main():
 	sum /= 5
 	print "sum is now =  {2}".format(a,b,sum)	
 
-	#modulos the original value of sum by 5
+	#modulo the original value of sum by 5
 	sum %= 5
 	print "sum is now =  {2}".format(a,b,sum)	
+
+
+
+	"""
+	there also is a shortcut for a power operation "**"
+	"""
+	sum**=2
+	print "sum to the power of 2 is now = {0} ".format(sum)
 
 
 	"""

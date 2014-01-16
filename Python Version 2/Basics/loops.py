@@ -31,7 +31,7 @@ def main():
 
 	#You can also iterate through strings
 	str = "formidable"
-	# the varcable i will print out each character 
+	# the variable i will print out each character 
 	#in the string
 	for i in str:
 	   print i
@@ -41,9 +41,7 @@ def main():
 	"""
 	You can break out of loops if a certain condition is met.  The break statement stops the 
 	iteration of a loop and exits out of it.
-
 	"""
-
 	#this loop will stop once n gets to 4.
 	for n in range(2, 10):
 		print "n is" , n
@@ -82,14 +80,6 @@ def main():
 	else:
 		print "loop will not execute"
 
-
-
-
-
-
-
-
-	
 
 
 
