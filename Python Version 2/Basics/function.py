@@ -28,8 +28,6 @@ def returnAdd(p1,p2):
 
 
 
-
-
 """
 You can make default parameters by making them after the 
 required ones
