@@ -3,8 +3,6 @@
 """
 This program takes an integer and outputs its string representation,
 """
-
-
 def main():
 	ans = ""
 
@@ -65,8 +63,6 @@ def solveHundreds(num ,numLenth):
 
 	str = ""
 
-
-	
 	if numLenth > 2:
 		answer = num /  100
 		str += decimal[(answer-1)%10] + " hundred " 
@@ -89,7 +85,6 @@ def solveHundreds(num ,numLenth):
 
 	if num > -1 and num < len(decimal):
 		str += " " + decimal[num]
-
 
 	return str
 
@@ -135,7 +130,7 @@ def calcNumLength(num):
 
 def closestLength(numLength):
 	count = 3
-	while count < numLength -3:
+	while count < numLength - 3:
 		count += 3
 	return count
 
