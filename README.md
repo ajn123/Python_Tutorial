@@ -50,6 +50,6 @@ my learning, ignore that folder if you are not interested.
 
 
 
-####Questions, Concerns, flat out mistakes?  feel free to contact me.
+####Questions, Concerns, flat out mistakes?  Feel free to contact me.
 
 > [Contact me (applejuiceteaching@gmail.com)](mailto:applejuiceteaching@gmail.com)
