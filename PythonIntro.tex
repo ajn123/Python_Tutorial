@@ -2,34 +2,78 @@
 
 \usepackage[margin=0.5in]{geometry}
 \usepackage{listings} 
+
+\usepackage{color}
+
+\usepackage[hidelinks]{hyperref}
 \begin{document}
 \lstset{language=Python}          % Set your language 
 
-\title{Introduction to Python}
+\title{How to learn Python}
 \author{AJ Norton}
 
 \maketitle
 
-\begin{abstract}
-This is the my perspective of how Python works and how to understand it.
-\end{abstract}
+
 
 \section{Introduction}
-Welcome to the world of Python.  Python is in my opinion the best programming language to start learning.  In this article, I hope to teach the basic understanding of Python and give you challenges to test your understanding along the way.
-\\[.5in]
-lets start with a simple program.
+If you are interested in programming and think that it is too intimitidating, I highly suggest trying to pick up python as a first 
+programming language (or add it to your arsenal).  It is extremely powerful yet simple at the same time.  Python is not as 
+synctactically strict as other languages and is really easy to jump into without knowing alot about coding. 
+
+ Take this following code sample:
 
 \begin{lstlisting}[frame=single] 
+#this is how you make a comment.
 print "hello world"
 \end{lstlisting}
 
+The above program prints "hello world" to the console.  See how easy it is? There are no brackets, semi-colons, or painful things 
+you need to do.  I love it for the fact that you can simply think about what you want to do and thats more or less what you have 
+to type.
+
+Let's look at another example:
+
+\begin{lstlisting}[frame=single] 
+list  = [1,2,3,4,5]  #creates a list 
+if 1 in list:
+	print "this is awesome"
+\end{lstlisting}
+
+This code sample creates something called a list and then I check if a certain element is in this list.  If this condition is true print something out, if not do not print anything out.  The only crazy thing that you need is the colon (:) after the "if 1 in list"
+
+
+\section{Learn More}
+The best advice I can give for learning a new language is the same any mother gives.  \large{PRACTICE PRACTICE PRACTICE}.  Just like
+anything you begin you will probably be terrible in the beginning.  It takes alot of time and experimenting to fully understand programming and you need to be able to dedicate time to it.
+
+These are the steps I advise to try to learn Python in no particular order.
 
 
 
-\subsection{Subsection Heading Here}
-Write your subsection text here.
+\begin{itemize}
+\item \href{http://www.python.org/}{{\color{blue}Start downloading Python  \Large{HERE.}}}
+
+\item \href{http://www.codecademy.com/}{{\color{blue}If you are new to programming, start doing tutorials on code academy for free \Large{HERE.}}}
+
+\item \href{http://www.youtube.com/watch?v=4Mf0h3HphEA}{{\color{blue}Watch youtube videos on Python \Large{HERE.}}}
+
+\item \href{http://www.python.org/}{{\color{blue}Look at my Git Hub repository of all of my Python notes and code snippits \Large{HERE.}}}
+
+\item \href{http://overapi.com/python/}{{\color{blue}Keep this cheatsheet handy and try to understand all of it  \Large{HERE.}}}
+
+\item If you get stuck on something, feel free to contact me or literally Google your answer (it really works!)
+
+
+
+\item \href{https://github.com/karan/Projects}{{\color{blue} If you feel it up for a challenge, try solving any of these projects yourself \Large{HERE.}}}
+
+\item \href{http://docs.python.org/2/library/}{{\color{blue} Try learing new things and incorporating it with Python (databases,
+reguler expressions...) \Large{HERE.}}}
+
+\end{itemize}
+
 
 \section{Conclusion}
-Write your conclusion here.
-
+I hope this helped.  Good luck.
 \end{document}
