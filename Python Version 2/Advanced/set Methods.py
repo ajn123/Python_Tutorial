@@ -1,6 +1,11 @@
+"""
+A set is an unordered collection with no duplicate values. A set can be created by using the keyword set or by using curly braces {}.
+However, to create an empty set you can only use the set construct, curly braces alone will create an empty dictionary.
+"""
+
 def main():
-	list = set([1,2,3])
-	a = set([3,4,5,6,1])
+	list = {1,2,3}
+	a ={3,4,5,6,1}
 
 
 
