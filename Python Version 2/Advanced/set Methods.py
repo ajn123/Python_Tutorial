@@ -8,9 +8,11 @@ def main():
 	a ={3,4,5,6,1}
 
 
+	b = set([1,2,3])  #Another way to make a set.
+
 
 	print a & list  #intersection operation (elemients in both sets)
-	print a  | list #union operation (elements combinted into one set)
+	print a | list #union operation (elements combinted into one set)
 	print a - list #difference operation (removes all the identical elements from the the second parameter set.
 	print a ^ list #symmetric difference (elements that are in the first set and the second, but not in both)
 
