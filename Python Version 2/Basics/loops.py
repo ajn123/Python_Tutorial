@@ -78,7 +78,7 @@ def main():
 	for i in range(12,20):
 		break
 	else:
-		print "loop will not execute"
+		print "else will not execute"
 
 
 
