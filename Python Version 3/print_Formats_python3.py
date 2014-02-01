@@ -6,7 +6,7 @@ Created on Dec 30, 2013
 
 @author: AJ Norton
 '''
-
+import math
 
 def main():
     #this prints a line in python 3, just like in python 2 but with parenthesis
