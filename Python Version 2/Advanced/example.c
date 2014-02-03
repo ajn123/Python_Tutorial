@@ -1,11 +1,11 @@
 
 
-//#include <stdio.h>
+#include <stdio.h>
 int fib(int );
 
-int main(int argc, char const *argv[])
+int main(int argc, char ** argv)
 {
-	printf("%d \n" , fib(23));
+	printf("%d \n" , fib(atoi(argv[1])) );
 	return 0;
 }
 
