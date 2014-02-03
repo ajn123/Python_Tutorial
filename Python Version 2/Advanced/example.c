@@ -3,6 +3,11 @@
 #include <stdio.h>
 int fib(int );
 
+
+/**
+the first argument for argv is the executable name and then starting at 
+1 and on is the arguments
+*/
 int main(int argc, char ** argv)
 {
 	printf("%d \n" , fib(atoi(argv[1])) );
