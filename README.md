@@ -5,7 +5,7 @@ Python 2 & 3 Introduction
 
 Before you start, you will need Python on your computer, but you may not need to download it.
 
-First of all check that you don't already have Python installed by entering python in a command line window. If you see a response from a Python interpreter it will include a version number in its initial display. Generally any recent version will do, as Python makes every attempt to maintain backwards compatibility.
+First of all check that you don't already have Python installed by entering "python" in a command line window. If you see a response from a Python interpreter it will include a version number in its initial display. Generally any recent version will do, as Python makes every attempt to maintain backwards compatibility.
 
 
 Python releases of both versions can be found here: [http://www.python.org/download/releases/]
