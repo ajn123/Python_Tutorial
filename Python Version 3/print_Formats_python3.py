@@ -36,6 +36,7 @@ def main():
     for each item
     this will print
     Apple,   Oranges,   Banana.
+    
     """
     print (*basket, sep=",   ", end=".\n")
 
