@@ -1,5 +1,4 @@
 
-
 """
 This is how you declare a class with the class key word and then a name
 followed by  "()" everythin within the class is indented,
@@ -26,6 +25,15 @@ class Car():
 		self._number = number
 
 
+		"""
+		By giving a number two underscores "__", you are making it a private variable,
+		this means that the variable can only be accessed outside of the class and 
+		not to someone who makes an instance of that class.  This is a good practice 
+		of encapsulation.
+		"""
+		self.__var = "this is unmutable"
+
+
 
 
 	"""
@@ -33,7 +41,7 @@ class Car():
 	"""
 	def number(self):
 		return self._number
-		
+
 
 
 
@@ -43,3 +51,8 @@ if __name__ == '__main__':
 	#Instanciates a car object and assigns it to variable car
 	car = Car(1222)
 	print car.number()
+	print car.__var  #This is an error, you can not access a private variable.
+
+
+
+	
