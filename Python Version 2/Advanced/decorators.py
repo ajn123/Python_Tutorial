@@ -28,7 +28,7 @@ def runFunctions(*args):
 
 
 
-"Passing in all my functions as parameters."
+#Passing in all my functions as parameters.
 runFunctions(square,double,triple)
 """
 prints:
