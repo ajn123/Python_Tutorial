@@ -31,4 +31,10 @@ list.
 result = map(lambda x: x**2,[2,3,4,56])
 
 print list(result)
-
+"""
+prints:
+4
+9
+15
+3136
+"""
