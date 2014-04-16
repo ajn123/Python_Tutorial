@@ -36,6 +36,11 @@ class listTest(unittest.TestCase):
 		list = [1,2,3] * 4
 		self.assertEqual(list,[1,2,3,1,2,3,1,2,3,1,2,3])
 
+
+	def testConcatenateList(self):
+		list = [1,3,4] + [7,8,9]
+		self.assertEqual(list, [1,3,4,7,8,9])
+
 	#Lists can be properly sorted using the sort() method
 	def testSort(self):
 		list = [1,10,3]
