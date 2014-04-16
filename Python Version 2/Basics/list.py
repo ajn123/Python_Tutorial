@@ -107,7 +107,7 @@ class listTest(unittest.TestCase):
 
 
 
-	def testInitialize(self):
+	def testListInitialize(self):
 	#Creates a list of 26 1's
 		list = [1]  * 10
 		self.assertEqual(list,[1,1,1,1,1,1,1,1,1,1])
