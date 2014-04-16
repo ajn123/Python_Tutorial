@@ -30,3 +30,9 @@ def runFunctions(*args):
 
 "Passing in all my functions as parameters."
 runFunctions(square,double,triple)
+"""
+prints:
+25
+10 
+15
+"""
