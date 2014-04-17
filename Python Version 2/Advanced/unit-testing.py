@@ -50,7 +50,7 @@ class Testing(unittest.TestCase):
 	uncomment this and run it to see what a failed test looks like.
 
 	def test3(self):
-		self.assertEqual(12,1)
+		self.assertEqual(12,1,"Your assertion is not true.")
 	"""
 
 
