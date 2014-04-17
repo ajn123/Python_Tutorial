@@ -67,6 +67,19 @@ class listTest(unittest.TestCase):
 		firstlist = [1,2,3]
 		self.assertEqual(1, firstlist.index(2))
 
+		#you can use min() and max() to find the maximum and minimum of a list of integers.
+	def testMinAndMax(self):
+		testList = [1,2,1000,123,2345,654,0]
+		self.assertEqual(2345,max(testList))
+		self.assertEqual(0,min(testList))
+
+		#you can also find the min(alphabetical first) and max of lists of strings.
+		stringList = ["aj","bob","cole"]
+		self.assertEqual("cole",max(stringList))
+		self.assertEqual("aj",min(stringList))
+
+
+
 
 
 	def testSize(self):
@@ -134,7 +147,7 @@ class listTest(unittest.TestCase):
 
 
 		"""
-		You can convert anything into a list that is iterable.
+		NOTE: You can convert anything into a list that is iterable.
 		"""
 
 
