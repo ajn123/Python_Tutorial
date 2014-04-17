@@ -16,4 +16,4 @@ Examples:
 Bonus: negatives and decimal numbers.
 
 
-Solving problems from Google's code jam is aslo a great learning experience.[Clik here](https://code.google.com/codejam/contest/2974486/dashboard#s=p3)
+Solving problems from Google's code jam is aslo a great learning experience. [Click here ](https://code.google.com/codejam/contest/2974486/dashboard#s=p3) to see past years problems.
