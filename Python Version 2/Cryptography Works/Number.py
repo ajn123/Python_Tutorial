@@ -1,7 +1,6 @@
-
-
 """
 This program takes an integer and outputs its string representation,
+
 """
 def main():
 	ans = ""
