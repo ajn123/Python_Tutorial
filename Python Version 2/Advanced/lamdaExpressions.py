@@ -41,6 +41,7 @@ prints:
 
 
 
+
 """
 Filters the list based on the lambda rules.
 """
