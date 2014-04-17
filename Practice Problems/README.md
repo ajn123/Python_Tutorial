@@ -7,6 +7,7 @@ feel free to fork and push your own solutions.
 
 I have taken practice problems and solved them in python and posted the solutions.
 
+---
 
 #####1)Number
 Given an integer print out its string representation in english.<br>
