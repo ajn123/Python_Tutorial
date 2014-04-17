@@ -1,5 +1,8 @@
 """
 This is how you can you splicing to implement merge sort,
+
+Taken from: http://interactivepython.org/runestone/static/pythonds/SortSearch/sorting.html
+All credit to them.
 """
 def mergeSort(alist):
     print("Splitting ",alist)
