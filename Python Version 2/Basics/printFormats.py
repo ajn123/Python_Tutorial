@@ -1,6 +1,9 @@
 import math
 
-#
+"""
+Print formatting is very important in python.  It is how you display information
+and results to the user.
+"""
 def main():
 
 

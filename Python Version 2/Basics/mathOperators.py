@@ -1,6 +1,6 @@
 """
-Math operators are common in any programming language and allow you to perform operations on many
-things in many ways.
+Math operators are common in any programming language and allow you 
+to perform operations on numbers in many ways.
 
 
 """
