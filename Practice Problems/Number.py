@@ -1,4 +1,13 @@
 """
+PROBLEM:
+Given a number print out its string representation in english.
+Examples:
+1 -> one
+23456 -> twenty three thousand four hundred fifty six
+12345678 -> twelve million three hundred fourty five thousand six hundred seventy eight
+
+
+
 This program takes an integer and outputs its string representation,
 
 """
