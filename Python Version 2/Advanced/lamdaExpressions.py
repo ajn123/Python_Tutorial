@@ -38,3 +38,32 @@ prints:
 15
 3136
 """
+
+
+
+"""
+Filters the list based on the lambda rules.
+"""
+answer = filter(lambda a:a > 2 ,[1,2,3])
+print(answer)# Prints a list with only 3 [3].
+
+
+
+from functools import reduce
+
+
+"""
+Result can apply a function across a list returning one result 
+such as a sum or  multiplication of the list.
+"""
+result = reduce(lambda a,b:a*b, [5,6,7])
+
+print (result) #prints 210
+
+
+
+
+
+
+
+
