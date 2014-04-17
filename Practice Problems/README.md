@@ -7,6 +7,7 @@ feel free to fork and push your own solutions.
 
 I have taken practice problems and solved them in python and posted the solutions.
 
+
 #####1)Number
 Given an integer print out its string representation in english.<br>
 Examples:
@@ -15,5 +16,6 @@ Examples:
 * 12345678 -> twelve million three hundred fourty five thousand six hundred seventy eight
 * Bonus: negatives and decimal numbers.
 
+-----
 
 Solving problems from Google's code jam is aslo a great learning experience. [Click here ](https://code.google.com/codejam/contest/2974486/dashboard#s=p3) to see past years problems.
