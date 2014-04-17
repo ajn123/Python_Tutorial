@@ -63,9 +63,12 @@ class listTest(unittest.TestCase):
 
 
 
+		#You can get the index of an elememnt by calling index and pass in the element.
 	def testIndex(self):
-		firstlist = [1,2,3]
-		self.assertEqual(1, firstlist.index(2))
+		firstlist = [1100,223,34]
+		self.assertEqual(2, firstlist.index(34))
+
+
 
 		#you can use min() and max() to find the maximum and minimum of a list of integers.
 	def testMinAndMax(self):
@@ -124,6 +127,17 @@ class listTest(unittest.TestCase):
 		self.assertEqual(fifthList,[5,4,3])
 
 		
+
+		#You can delete list indexes by using the "del" keyword and giving the list index.
+	def testDeleteListIndex(self):
+		firstlist = [1,4,5]
+		del firstlist[1]
+		self.assertEqual([1,5],firstlist)
+
+		#You can delete splices as well.
+		firstlist = [1,4,5]
+		del firstlist[1:]
+		self.assertEqual([1],firstlist)
 
 
 
