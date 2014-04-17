@@ -13,7 +13,7 @@ Python releases of both versions can be found here: [http://www.python.org/downl
 This repository has all my notes on python and corresponding tests
 
 
-####To run any of these files, open your terminal and cd into the folder where the file is located and run "python {filename}" without the .py to run it.
+####To run any of these files, open your terminal and cd into the folder where the file is located and run "python {filename}.py".
 
 
 To get started learning python I suggest you start in the python version 2 folder > basics and read and play with those concepts.  Then 
