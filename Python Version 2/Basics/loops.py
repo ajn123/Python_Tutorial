@@ -11,15 +11,18 @@ def main():
 		print x
 		#this is equal to  x = x + 1
 		x += 1
-
-	#this is a for loop,the most used loop in python.  It increments by one automatically
-	#it goes from 5 to 10 exclusive so  5,6,7,8,9 will be printed NOT 10
+	"""
+	this is a for loop,the most used loop in python.  It increments by one automatically
+	it goes from 5 to 10 exclusive so  5,6,7,8,9 will be printed NOT 10
+	"""
 	for x in range(5,10):
 		print x
 
-	#The 2 represents how big the incremented is, default is 1, this example is 2
-	#this will print out 5 7 9
-	#5 is the starting position, 11 is the ending (not including)
+	"""
+	The 2 represents how big the incremented is, default is 1, this example is 2
+	this will print out 5 7 9
+	5 is the starting position, 11 is the ending (not including)
+	"""
 	for x in range(5,11,2):
 		print x
 
@@ -31,8 +34,7 @@ def main():
 
 	#You can also iterate through strings
 	str = "formidable"
-	# the variable i will print out each character 
-	#in the string
+	# the variable i will print out each character in the string
 	for i in str:
 	   print i
 
@@ -41,8 +43,9 @@ def main():
 	"""
 	You can break out of loops if a certain condition is met.  The break statement stops the 
 	iteration of a loop and exits out of it.
+
+	This loop will stop once n gets to 4.
 	"""
-	#this loop will stop once n gets to 4.
 	for n in range(2, 10):
 		print "n is" , n
 		if n == 4:
@@ -54,7 +57,7 @@ def main():
 	when continue is hit by the program the next iteration automatically starts.
 
 
-	in this case "another statement i is 6" will be skipped over because it hits the continue statement
+	In this case "another statement i is 6" will be skipped over because it hits the continue statement
 	"""
 	for i in range(10):
 		print "i is ", i  
@@ -85,9 +88,11 @@ def main():
 
 
 def enumerating():
-	#this is how you can get the index of what you are looping through
-	#in case you need it.  You can pass in your block  to this iterable 
-	#function to loop through the list and its index.
+	"""
+	this is how you can get the index of what you are looping through
+	in case you need it.  You can pass in your block  to this iterable 
+	function to loop through the list and its index.
+	"""
 
 	list = ("apple","orange","pear") #tuple declaration
 
