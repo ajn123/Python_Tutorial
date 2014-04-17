@@ -19,4 +19,4 @@ Examples:
 
 -----
 
-Solving problems from Google's code jam is aslo a great learning experience. [Click here ](https://code.google.com/codejam/contest/2974486/dashboard#s=p3) to see past years problems.
+Solving problems from Google's code jam is also a great learning experience. [Click here ](https://code.google.com/codejam/contest/2974486/dashboard#s=p3) to see past years problems.
