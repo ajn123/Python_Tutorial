@@ -9,7 +9,7 @@ def square(x):
 	return x**2
 
 def double(a):
-	return a *2
+	return a*2
 
 def triple(b):
 	return b * 3

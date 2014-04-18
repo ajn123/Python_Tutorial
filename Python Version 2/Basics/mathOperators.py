@@ -46,8 +46,8 @@ def main():
 
 	#decrements the value stored in sum by 5
 	sum -= 5
-	print "sum is now =  {2}".format(a,b,sum)	
 
+	print "sum is now =  {2}".format(a,b,sum)	
 
 	#multiplies the original value of sum by 5
 	sum *= 5
@@ -60,8 +60,6 @@ def main():
 	#modulo the original value of sum by 5
 	sum %= 5
 	print "sum is now =  {2}".format(a,b,sum)	
-
-
 
 	"""
 	there also is a shortcut for a power operation "**"
