@@ -1,8 +1,7 @@
 """
 Math operators are common in any programming language and allow you 
-to perform operations on numbers in many ways.
-
-
+to perform operations on numbers in many ways.  Just like you would
+in regular mathematics.
 """
 
 
