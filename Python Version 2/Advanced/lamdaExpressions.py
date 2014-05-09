@@ -63,6 +63,10 @@ print (result) #prints 210
 
 
 
+odd = lambda x : bool(x % 2)
+numbers = [n for n in range(100) if odd(n)]
+print numbers # prints all odd numbers from 1 to 99.
+
 
 
 
